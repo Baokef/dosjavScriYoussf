@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Le DOM HTML</title>
+    <meta charset="utf-8" />
+</head>
+
+<body>
+    <h1 id="intro">Accession à l’élément HTML par id</h1>
+
+    <p class="«" para »>
+        Du texte et
+        <a href="http://www.cfitech.be">cliquer ici</a>
+    </p>
+    <p class="«" para »>
+        La première méthode, getElementById(), va nous permettre de cibler un élément HTML possédant un attribut id en particulier
+    </p>
+    <p class="«" para »>
+        La méthode getElementsByTagName() va retourner des informations relatives à tous les éléments HTML d’un même genre Ex tous les éléments p dans un tableau
+    </p>
+    <p class="«" para1 »>
+        La méthode getElementsByClassName() va nous permettre d’accéder aux éléments HTML disposant d’un attribut class en particulier.
+    </p>
+    <script>
+        var titre = document.getElementById("intro");
+        var parent = document.body;
+        parent.removeChild(titre);
+
+        //let titre = document.getElementById("intro");
+        //titre.remove();
+        //supprimer le titre
+
+        //On crée un élément de type p
+        //var newPara = document.createElement("p");
+        //On ajoute un attribut id à notre paragraphe
+        //newPara.id = "nouveau";
+        //On crée un noeud de type texte
+        //var texte = document.createTextNode("Inséré !");
+        //On insère le texte dans notre paragraphe
+        //newPara.appendChild(texte);
+        /*On insère finalement notre élément en tant que
+              *dernier enfant de body (auquel on accède directement
+              avec "document.body", tout simplement)*/
+        //document.body.appendChild(newPara);
+
+        //var div = document.getElementById('para2');     div.innerHTML += 'hello world !';
+        //document.getElementById("intro").style.color = "green";
+        //document.getElementById("intro").style.fontSize = "100px";
+        //document.querySelector("a").href = "http://www.google.com";
+        //alert(para.firstChild.nodeValue); // affiche le texte
+        //para.firstChild.nodeValue = "www.koekeltech.be";
+        // var query = document.getElementById("intro");
+        //alert(query);
+        //var tableau = document.getElementsByTagName("p");
+        //alert("Notre page contient " + tableau.length + " paragraphes");
+        //var texte = document.getElementById("texte");
+        //texte.setAttribute("style", "color:green");
+        //Pour changer la couleur des paragraphes
+        //var elts = document.getElementsByTagName('p');
+        // Je prends le deuxième paragraphe
+        // J'accède à son attribut style
+        // Puis à sa propriété color
+        // elts[3].style.color = 'red';
+    </script>
+</body>
+
+</html>

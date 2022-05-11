@@ -1,0 +1,13 @@
+C:\Users\keprh\Documents\javascript code\firstjavascript\bin\Debug\netcoreapp3.1\firstjavascript.exe
+C:\Users\keprh\Documents\javascript code\firstjavascript\bin\Debug\netcoreapp3.1\firstjavascript.deps.json
+C:\Users\keprh\Documents\javascript code\firstjavascript\bin\Debug\netcoreapp3.1\firstjavascript.runtimeconfig.json
+C:\Users\keprh\Documents\javascript code\firstjavascript\bin\Debug\netcoreapp3.1\firstjavascript.runtimeconfig.dev.json
+C:\Users\keprh\Documents\javascript code\firstjavascript\bin\Debug\netcoreapp3.1\firstjavascript.dll
+C:\Users\keprh\Documents\javascript code\firstjavascript\bin\Debug\netcoreapp3.1\firstjavascript.pdb
+C:\Users\keprh\Documents\javascript code\firstjavascript\obj\Debug\netcoreapp3.1\firstjavascript.csprojAssemblyReference.cache
+C:\Users\keprh\Documents\javascript code\firstjavascript\obj\Debug\netcoreapp3.1\firstjavascript.AssemblyInfoInputs.cache
+C:\Users\keprh\Documents\javascript code\firstjavascript\obj\Debug\netcoreapp3.1\firstjavascript.AssemblyInfo.cs
+C:\Users\keprh\Documents\javascript code\firstjavascript\obj\Debug\netcoreapp3.1\firstjavascript.csproj.CoreCompileInputs.cache
+C:\Users\keprh\Documents\javascript code\firstjavascript\obj\Debug\netcoreapp3.1\firstjavascript.dll
+C:\Users\keprh\Documents\javascript code\firstjavascript\obj\Debug\netcoreapp3.1\firstjavascript.pdb
+C:\Users\keprh\Documents\javascript code\firstjavascript\obj\Debug\netcoreapp3.1\firstjavascript.genruntimeconfig.cache

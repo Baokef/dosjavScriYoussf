@@ -1,0 +1,11 @@
+            @media screen and (min-width: 768px) {
+                .wrapper {
+                    grid-template-columns: repeat(2, 1fr);
+                }
+            }
+            
+            .wrapper {
+                display: grid;
+                gap: 1rem;
+                padding: 1rem;
+            }

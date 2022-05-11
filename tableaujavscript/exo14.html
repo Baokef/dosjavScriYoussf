@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" />
+    <title>Le titre de la page</title>
+</head>
+
+<body>
+    <div>
+        <p id="myP">Un peu de texte <a>et un lien</a></p>
+    </div>
+    <script>
+        var link = document.getElementsByTagName("a")[0];
+        var newLabel = document.createTextNode("et un hyperlien");
+        link.replaceChild(newLabel, link.firstChild);
+        //Sur le exemple remplace le lien par un 'et un hyperlien'
+    </script>
+</body>
+
+</html>

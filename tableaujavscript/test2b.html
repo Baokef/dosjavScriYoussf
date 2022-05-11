@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="myDiv">
+        <p>un peu de texte<a> et un lien </a></p>
+    </div>
+    <div id="myDiv1">
+        <p>champion d'afrique<a> et un lien </a></p>
+    </div>
+    <div id="myDiv3">
+        <p>wala bok<a> et un lien </a></p>
+    </div>
+    <script>
+        /*var div = document.getElementById("myDiv");
+                                alert(div);*/
+        var divs = document.getElementsByTagName("div");
+        for (var i = 0, c = divs.length; i < c; i++) {
+            alert("Element n " + (i + 1) + " : " + divs[i]);
+        }
+    </script>
+</body>
+
+</html>

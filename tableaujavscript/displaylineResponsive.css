@@ -1,0 +1,10 @@
+<style>.box {
+    /* Display inline : ne prend pas en compte
+        height & width ! */
+    height: 50px;
+    width: 50px;
+    background-color: blue;
+    /* Pour afficher sur une rangée des éléments ajouter => display: inline-block;*/
+}
+
+</style><body><span class="box">Salut</span><span class="box">Salut</span><span class="box">Salut</span></body>

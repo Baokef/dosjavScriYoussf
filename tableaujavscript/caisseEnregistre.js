@@ -1,0 +1,12 @@
+let i = 1;
+let monnaie = 0;
+let nbrAchat = 0;
+let caisse = 0;
+let somme = 0;
+let l = 0;
+let m = 0;
+let n = 0;
+let reste = 0;
+let last;
+let prix;
+console.log("veuillez entrez un prix ? ou taper 0 pour quitter");

@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@100&display=swap');
+.hero__title {
+    font-size: 6rem;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: bold;
+}
+
+.hero__subtitle {
+    letter-spacing: 17px;
+    font-size: 1.75rem;
+    font-family: 'Montserrat', sans-serif;
+}

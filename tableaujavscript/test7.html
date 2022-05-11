@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=<>, initial-scale=1.0" />
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+        <p id="myP">
+            Un peu de texte, <strong>une portion en emphase</strong> et
+            <a>un lien</a>
+        </p>
+    </div>
+    <script>
+        var paragraph = document.getElementById("myP");
+        var first = paragraph.firstChild;
+        var last = paragraph.lastChild;
+        alert(first.nodeName.toLowerCase());
+        alert(last.nodeName.toLowerCase());
+    </script>
+</body>
+
+</html>

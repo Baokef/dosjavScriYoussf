@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" />
+    <title>Le titre de la page</title>
+</head>
+
+<body>
+    <div>
+        <p id="myP">Un peu de texte <a>et un lien</a></p>
+    </div>
+    <script>
+        var newLink = document.createElement("a");
+        newLink.href = "http://www.google.com/";
+        newLink.title = "Découvrez le Site du Zéro !";
+        document.getElementById("myP").appendChild(newLink);
+        var newLinkText = document.createTextNode("Le Site du Zéro");
+        newLink.appendChild(newLinkText);
+        //Inserer un lien dans la balise <a> ex www.google.com
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,13 @@
+var newLink = document.createElement("a");
+var newLink2 = document.createElement("a");
+newLink.id = "cuicui";
+newLink.href = "https://www.youtube.com/";
+newLink2.href = "https://www.google.com/";
+newLink.title = "Decouvrer youtube";
+newLink.setAttribute("tabindex", "10");
+document.getElementById("myP").appendChild(newLink);
+document.getElementById("second").appendChild(newLink2);
+var newLinkText = document.createTextNode("Bienvenue chez youtube");
+var newLinkText2 = document.createTextNode("Bienvenue chez google");
+newLink.appendChild(newLinkText);
+newLink2.appendChild(newLinkText2);
